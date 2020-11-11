@@ -1,0 +1,16 @@
+/* Variables */
+
+$font-header: 'Playfair Display SC', serif; 
+$font-main: 'Karma', serif;
+
+/*Global*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: $font-main;
+}
