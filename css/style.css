@@ -1,7 +1,7 @@
 /* Variables */
 
-$font-header: 'Playfair Display SC', serif; 
-$font-main: 'Karma', serif;
+font-header: 'Playfair Display SC', serif; 
+font-main: 'Karma', serif;
 
 /*Global*/
 
@@ -10,8 +10,17 @@ $font-main: 'Karma', serif;
 }
 
 body {
-    margin: 0;
+    margin: auto;
     font-size: 20px;
-    font-family: $font-main;
+    font-family: font-main;
 }
 
+.container {
+    max-width: 500px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
