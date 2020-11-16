@@ -21,10 +21,12 @@ body {
     margin: 20px auto;
     text-align: justify;
     padding: 20px;
-    border-radius: 5px;
 }
 
 h1 {
     color: red;
-    font-family: font-header;
+}
+
+p {
+    margin: 0;
 }
