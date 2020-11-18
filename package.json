@@ -19,5 +19,8 @@
   "homepage": "https://github.com/DagmaraGryka/zadanie1#readme",
   "devDependencies": {
     "browser-sync": "^2.26.13"
+  },
+  "dependencies": {
+    "autoprefixer-cli": "^1.0.0"
   }
 }
